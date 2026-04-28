@@ -1,0 +1,167 @@
+.dashboard-container {
+  padding: 30px 40px;
+  background: #f4f6f9;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-title {
+  font-size: 26px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+/* 🔥 METRICS ROW */
+.metrics-row {
+  display: flex;
+  gap: 22px;
+  align-items: stretch;
+  margin-bottom: 30px;
+}
+
+/* 🔥 METRIC CARD (BIGGER + CLEAN) */
+.metric-card {
+  background: #fff;
+  padding: 20px;
+  width: 220px;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transition: 0.2s ease;
+}
+
+.metric-card:hover {
+  transform: translateY(-4px);
+}
+
+/* 🔥 TEXT IMPROVEMENT */
+.metric-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+.metric-card h2 {
+  font-size: 26px;
+  margin: 6px 0;
+  font-weight: 600;
+}
+
+/* 🔥 AI CARD (MORE PROMINENT) */
+.ai-card {
+  background: #fff;
+  padding: 20px;
+  width: 260px;
+  border-radius: 14px;
+  font-size: 14px;
+  line-height: 1.5;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.2s ease;
+}
+
+.ai-card:hover {
+  transform: translateY(-4px);
+}
+
+/* 🔥 PROGRESS BAR (THICKER) */
+.progress-bar {
+  height: 10px;
+  background: #ddd;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* COLORS */
+.green { color: #27ae60; }
+.green-bg { background: #27ae60; }
+
+.blue { color: #2980b9; }
+.blue-bg { background: #2980b9; }
+
+.orange { color: #e67e22; }
+.orange-bg { background: #e67e22; }
+
+.purple { color: #8e44ad; }
+.purple-bg { background: #8e44ad; }
+
+/* 🔥 MAIN SECTION */
+.main-section {
+  display: flex;
+  gap: 25px;
+}
+
+/* 🔥 FOOD LIST */
+.food-panel {
+  width: 40%;
+  background: #fff;
+  padding: 18px;
+  border-radius: 14px;
+  max-height: 420px;
+  overflow-y: auto;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.food-card {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+
+/* 🔥 GRAPH PANEL */
+.graph-panel {
+  width: 60%;
+  background: #fff;
+  padding: 18px;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.health-card {
+  background: #fff;
+  padding: 15px;
+  width: 200px;
+  border-radius: 12px;
+  font-size: 13px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.health-card h4 {
+  margin-bottom: 6px;
+}
+
+.health-card p {
+  margin: 2px 0;
+}
+
+/* BMI COLORS */
+.bmi-low { color: #e67e22; }
+.bmi-normal { color: #27ae60; }
+.bmi-high { color: #e74c3c; }
+
+/* STATUS BADGE */
+.status-badge {
+  background: #ecf0f1;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+/* GOAL */
+.goal-good {
+  color: #27ae60;
+  font-weight: 500;
+}
+
+.goal-bad {
+  color: #e74c3c;
+  font-weight: 500;
+}

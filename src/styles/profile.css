@@ -1,0 +1,64 @@
+.profile-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.profile-card {
+  background: #fff;
+  padding: 25px;
+  width: 320px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.profile-card input,
+.profile-card select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.profile-card button {
+  width: 100%;
+  padding: 12px;
+  background: #27ae60;
+  border: none;
+  color: white;
+  border-radius: 8px;
+}
+
+.profile-result {
+  background: #fff;
+  padding: 25px;
+  width: 320px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.result-box p {
+  margin: 10px 0;
+}
+
+.placeholder {
+  text-align: center;
+  color: #888;
+}
+
+/* 🔥 RESET BUTTON (ONLY CHANGE) */
+.reset-btn {
+  margin-top: 10px;
+  background: #e74c3c;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.reset-btn:hover {
+  background: #c0392b;
+}
